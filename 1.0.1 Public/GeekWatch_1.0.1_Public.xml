@@ -1,0 +1,1198 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="procedures_defnoreturn" id="sGye:B_,hy8}J2p:75*[" x="-85" y="-868">
+    <field name="NAME">Time</field>
+    <field name="PARAMS"></field>
+    <statement name="STACK">
+      <block type="variables_set" id="i)P;.%^:/))`|;wG}yW6">
+        <field name="VAR">time_s1</field>
+        <value name="VALUE">
+          <shadow type="math_number" id="DMlan8MpY=XuuKp?2OZU">
+            <field name="NUM">0</field>
+          </shadow>
+          <block type="text_join" id="oy9R$6.aQ$nkIMsP1rj[">
+            <mutation items="5"></mutation>
+            <value name="ADD0">
+              <block type="math_division_consult" id="s9.CVPDb|NRhqW:#7%Wv">
+                <value name="DIVIDEND">
+                  <shadow type="math_number" id="|Y5EN=d0,9b4(wsbl.68">
+                    <field name="NUM">64</field>
+                  </shadow>
+                  <block type="mpython_time_localtime" id=".%LK/9LK=RSZH~$C,z9#">
+                    <field name="time_localtime">3</field>
+                  </block>
+                </value>
+                <value name="DIVISOR">
+                  <shadow type="math_number" id="Z@q[-X56QSZcVBgBUTmX">
+                    <field name="NUM">10</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block type="math_modulo" id="1x;d?}]LM39o-d-D_MnY">
+                <value name="DIVIDEND">
+                  <shadow type="math_number" id="LJ=wG8oVwX!H71S+)`e}">
+                    <field name="NUM">64</field>
+                  </shadow>
+                  <block type="mpython_time_localtime" id="ve4c{CpHrj4P@9EX;lmW">
+                    <field name="time_localtime">3</field>
+                  </block>
+                </value>
+                <value name="DIVISOR">
+                  <shadow type="math_number" id="7(R1-[=,hQ5VZvu6L(v4">
+                    <field name="NUM">10</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <value name="ADD2">
+              <block type="text" id="{xCxwdOh9h/(`Uu{e4E,">
+                <field name="TEXT">:</field>
+              </block>
+            </value>
+            <value name="ADD3">
+              <block type="math_division_consult" id="5XJQ8I-i;]~V{.%OPB#Z">
+                <value name="DIVIDEND">
+                  <shadow type="math_number" id="|Y5EN=d0,9b4(wsbl.68">
+                    <field name="NUM">64</field>
+                  </shadow>
+                  <block type="mpython_time_localtime" id="YJdzHQ@LJ($E}U+,V0WI">
+                    <field name="time_localtime">4</field>
+                  </block>
+                </value>
+                <value name="DIVISOR">
+                  <shadow type="math_number" id="z_ly=ywfJ:;fY_Ii#}2w">
+                    <field name="NUM">10</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <value name="ADD4">
+              <block type="math_modulo" id="Sn{nlRQVK-[8XznNlz42">
+                <value name="DIVIDEND">
+                  <shadow type="math_number" id="LJ=wG8oVwX!H71S+)`e}">
+                    <field name="NUM">64</field>
+                  </shadow>
+                  <block type="mpython_time_localtime" id="TyZe27oJ(jS.Q~N=Vs18">
+                    <field name="time_localtime">4</field>
+                  </block>
+                </value>
+                <value name="DIVISOR">
+                  <shadow type="math_number" id="i^,OXpIVnz-#q;RUkdum">
+                    <field name="NUM">10</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="variables_set" id="=2?4Yg3)|zl(DlV%#2Wj">
+            <field name="VAR">time_s2</field>
+            <value name="VALUE">
+              <shadow type="math_number" id="DMlan8MpY=XuuKp?2OZU">
+                <field name="NUM">0</field>
+              </shadow>
+              <block type="text_join" id="!F/zmCKlo*Tmwmt@)PSz">
+                <mutation items="2"></mutation>
+                <value name="ADD0">
+                  <block type="math_division_consult" id="MA{iejK)pHX?Qpv_,$mD">
+                    <value name="DIVIDEND">
+                      <shadow type="math_number" id="|Y5EN=d0,9b4(wsbl.68">
+                        <field name="NUM">64</field>
+                      </shadow>
+                      <block type="mpython_time_localtime" id="/#{`e/r0aZLbBeMbe/}1">
+                        <field name="time_localtime">5</field>
+                      </block>
+                    </value>
+                    <value name="DIVISOR">
+                      <shadow type="math_number" id="F}q`HfqWp_b?AJ0c71;U">
+                        <field name="NUM">10</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block type="math_modulo" id="jz?I;n{#!UX*7OHBkN)p">
+                    <value name="DIVIDEND">
+                      <shadow type="math_number" id="LJ=wG8oVwX!H71S+)`e}">
+                        <field name="NUM">64</field>
+                      </shadow>
+                      <block type="mpython_time_localtime" id="8PP}++x]mbzzL(OjQao-">
+                        <field name="time_localtime">5</field>
+                      </block>
+                    </value>
+                    <value name="DIVISOR">
+                      <shadow type="math_number" id="[{O^}P74N2wBkA*gM7_Q">
+                        <field name="NUM">10</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="variables_set" id="|mUS+w]zyfrs5@)#$~zg">
+                <field name="VAR">monthnumber</field>
+                <value name="VALUE">
+                  <shadow type="math_number" id="rX/du=yFB7-ubLFFZs^w">
+                    <field name="NUM">0</field>
+                  </shadow>
+                  <block type="mpython_time_localtime" id=":w,(b/hS}L?_xuxZJu1O">
+                    <field name="time_localtime">6</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="Z5G{8!^;,/M.0J/rUVMt" x="-87" y="-523">
+    <field name="NAME">Sport</field>
+    <field name="PARAMS"></field>
+    <statement name="STACK">
+      <block type="controls_if" id="s~WTG;ZP:/Q4~1D0Y5!$">
+        <value name="IF0">
+          <block type="mpython_is_shaked" id="]{|CZ9VZBgP,nTjX~BoD">
+            <field name="action">shaked</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="math_change" id="t{adnxh-)w_-4gK4`R8+">
+            <field name="VAR">walk</field>
+            <value name="DELTA">
+              <shadow type="math_number" id="J}6{PR9v=,%Mog?TVTm1">
+                <field name="NUM">1</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="variables_set" id="roCBOG3Oio.Cr(;BRhJJ">
+                <field name="VAR">kcal</field>
+                <value name="VALUE">
+                  <shadow type="math_number" id="KGet|/9vP|OF|(JfUH#)">
+                    <field name="NUM">0</field>
+                  </shadow>
+                  <block type="math_division_consult" id="vvf(YVv*2iW`g)vM,Z/{">
+                    <value name="DIVIDEND">
+                      <shadow type="math_number" id="nl?yRPY$Nni7Rg3{/jp*">
+                        <field name="NUM">64</field>
+                      </shadow>
+                      <block type="variables_get" id="~Md!?p9:JN)35n*Riq1G">
+                        <field name="VAR">walk</field>
+                      </block>
+                    </value>
+                    <value name="DIVISOR">
+                      <shadow type="math_number" id="=b$:k{X@MyfzvH?!vATy">
+                        <field name="NUM">50</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="s2wNM_YEtVQHrqt70ng@" x="-121" y="-269">
+    <field name="NAME">Watch_Logic</field>
+    <field name="PARAMS"></field>
+    <statement name="STACK">
+      <block type="mpython_return_list" id="j:lD`sy,_MTkV!L$S+{f">
+        <value name="list_name">
+          <block type="variables_get" id="9W)-XW?QE;T?LjLa~SIm">
+            <field name="VAR">Month</field>
+          </block>
+        </value>
+        <value name="list_items">
+          <shadow type="text_list" id="WbU)$wiX$,D[Ww,%g9`3">
+            <field name="TEXT">0, 0, 0</field>
+          </shadow>
+          <block type="lists_create_with" id="h85ll|fM.v)c(VK0?7{Y">
+            <mutation items="7"></mutation>
+            <value name="ADD0">
+              <block type="text" id="WLO0Pbyy/j=9O?[{?6WM">
+                <field name="TEXT">一</field>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block type="text" id="#glIxDuyRjVfx#.-RJ2`">
+                <field name="TEXT">二</field>
+              </block>
+            </value>
+            <value name="ADD2">
+              <block type="text" id="_]F)l=d/NL4JBrG?sX|$">
+                <field name="TEXT">三</field>
+              </block>
+            </value>
+            <value name="ADD3">
+              <block type="text" id="X|dkf7Tf_vptICh*yU/J">
+                <field name="TEXT">四</field>
+              </block>
+            </value>
+            <value name="ADD4">
+              <block type="text" id="c.^a$2b!5FUlifxF+J+f">
+                <field name="TEXT">五</field>
+              </block>
+            </value>
+            <value name="ADD5">
+              <block type="text" id="6E3!(_t1s8wMI|lUvjQO">
+                <field name="TEXT">六</field>
+              </block>
+            </value>
+            <value name="ADD6">
+              <block type="text" id="wPBk:]xym:)hFEfi+^y|">
+                <field name="TEXT">日</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="mpython_return_list" id="krcOZ4t%9*:.8eP#6QFs">
+            <value name="list_name">
+              <block type="variables_get" id=";@D-v2{:U}S!K1/c1WIP">
+                <field name="VAR">Watch</field>
+              </block>
+            </value>
+            <value name="list_items">
+              <shadow type="text_list" id="+T}$_BPq$Qt)B9|Qz3px">
+                <field name="TEXT">0, 0, 0</field>
+              </shadow>
+              <block type="lists_create_with" id="|kak[vM)SzN8Ctd8n+t_">
+                <mutation items="7"></mutation>
+                <value name="ADD0">
+                  <block type="text_join" id="#@(v4Ci4R!LJ:Ba-i[HB">
+                    <mutation items="2"></mutation>
+                    <value name="ADD0">
+                      <block type="text" id="osKe}4[dWP;2hU#_LDAQ">
+                        <field name="TEXT">周</field>
+                      </block>
+                    </value>
+                    <value name="ADD1">
+                      <block type="list_order_item" id="Sw3?y=PG-aNv%%j=521J">
+                        <field name="list_order">[</field>
+                        <value name="list_name">
+                          <shadow type="text_list" id="gZZLIZI/$oP%uqC`p-nk">
+                            <field name="TEXT"></field>
+                          </shadow>
+                          <block type="variables_get" id="%NB)0+*H}nZJ]Wdly!Cm">
+                            <field name="VAR">Month</field>
+                          </block>
+                        </value>
+                        <value name="list_order_item">
+                          <shadow type="math_number" id="Q!}s28@T5=L3;%(d}n{]">
+                            <field name="NUM">0</field>
+                          </shadow>
+                          <block type="variables_get" id="i0O}sLzX]!8=a+iSMgOm">
+                            <field name="VAR">monthnumber</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block type="text_join" id="zjUbfU9/bqLk@O8,GcWU">
+                    <mutation items="3"></mutation>
+                    <value name="ADD0">
+                      <block type="mpython_time_localtime" id="+]rkR,#H*2]xe!bs2J$M">
+                        <field name="time_localtime">1</field>
+                      </block>
+                    </value>
+                    <value name="ADD1">
+                      <block type="text" id="`?q(P8K(Tn}^3K#c=j1R">
+                        <field name="TEXT">/</field>
+                      </block>
+                    </value>
+                    <value name="ADD2">
+                      <block type="mpython_time_localtime" id="d^FGf@26JJPH1yf{WBxs">
+                        <field name="time_localtime">2</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ADD2">
+                  <block type="text_join" id="F~FcI.`H6,8Z%1*XaC@;">
+                    <mutation items="1"></mutation>
+                    <value name="ADD0">
+                      <block type="variables_get" id="L]kQf!wU7x[RNmA]RQ)X">
+                        <field name="VAR">time_s1</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ADD3">
+                  <block type="text_join" id="C@Eq7YCCrwH*:}Am_4t5">
+                    <mutation items="3"></mutation>
+                    <value name="ADD0">
+                      <block type="text" id="2nM`cfk=2)9IZCnO=z$0">
+                        <field name="TEXT">卡路里:</field>
+                      </block>
+                    </value>
+                    <value name="ADD1">
+                      <block type="variables_get" id="P)jB-3yGh)*KcC=k{H*]">
+                        <field name="VAR">kcal</field>
+                      </block>
+                    </value>
+                    <value name="ADD2">
+                      <block type="text" id="Ed9ve:uW@lu@02Vh+@TW">
+                        <field name="TEXT">kcal</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ADD4">
+                  <block type="text_join" id="B]?t$r5j4`J*}5Ht,1^Y">
+                    <mutation items="3"></mutation>
+                    <value name="ADD0">
+                      <block type="text" id="Qt`jWdg2aN5v0Vu-_yRF">
+                        <field name="TEXT">步数:</field>
+                      </block>
+                    </value>
+                    <value name="ADD1">
+                      <block type="variables_get" id="h.V8i{MugD|QIW7*wn(C">
+                        <field name="VAR">walk</field>
+                      </block>
+                    </value>
+                    <value name="ADD2">
+                      <block type="text" id="ZMT2ZVhbicK5n3i=2EHy">
+                        <field name="TEXT">步</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="ADD5">
+                  <block type="mpython_get_seniverse_weather_info1" id="2NDJJ]fTh5ipD:C/;Vix">
+                    <field name="var_name">w1</field>
+                    <field name="type">text</field>
+                  </block>
+                </value>
+                <value name="ADD6">
+                  <block type="text" id="6o7q$1F6%~ch-LK7Y3EI">
+                    <field name="TEXT"></field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="controls_if" id="hGKgaeUjp;`qi87s(Qmm">
+                <value name="IF0">
+                  <block type="mpython_touchPad_value" id="QD:^NYG+U4rh5MvfNp$(">
+                    <field name="touchPad">P</field>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="mpython_return_list" id="Em||F[DybkLX^;J[Ys0T">
+                    <value name="list_name">
+                      <block type="variables_get" id="ilMb(`fHvx:oL+Rs{)Wb">
+                        <field name="VAR">Watch</field>
+                      </block>
+                    </value>
+                    <value name="list_items">
+                      <shadow type="text_list" id="+T}$_BPq$Qt)B9|Qz3px">
+                        <field name="TEXT">0, 0, 0</field>
+                      </shadow>
+                      <block type="lists_create_with" id="4+EK)sMzH%Q1w,a)d8Hl">
+                        <mutation items="7"></mutation>
+                        <value name="ADD0">
+                          <block type="text" id="jNinXHEzGl/jgogQqL$I">
+                            <field name="TEXT">我的状态</field>
+                          </block>
+                        </value>
+                        <value name="ADD1">
+                          <block type="text" id="[.byS4Z7Nta==ow~Wg4I">
+                            <field name="TEXT"></field>
+                          </block>
+                        </value>
+                        <value name="ADD2">
+                          <block type="text_join" id="7QEqv!2*VG_h0H/7=2A#">
+                            <mutation items="1"></mutation>
+                            <value name="ADD0">
+                              <block type="variables_get" id="BWMa+z*KGWDU)k_,u~}}">
+                                <field name="VAR">walk</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="ADD3">
+                          <block type="text_join" id="=i,EYlF[YPW6!IWIhVFu">
+                            <mutation items="3"></mutation>
+                            <value name="ADD0">
+                              <block type="text" id="R@U$[g;Y@=RXQ77zU8ZI">
+                                <field name="TEXT">已消耗</field>
+                              </block>
+                            </value>
+                            <value name="ADD1">
+                              <block type="variables_get" id="DV-ng{QL{x!A*|ww,d/i">
+                                <field name="VAR">kcal</field>
+                              </block>
+                            </value>
+                            <value name="ADD2">
+                              <block type="text" id="+BVbdk!;)@x^7=~Mw8Rw">
+                                <field name="TEXT">Kcal</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="ADD4">
+                          <block type="text_join" id="UEauByjpPSYJx!#XF`j9">
+                            <mutation items="1"></mutation>
+                            <value name="ADD0">
+                              <block type="variables_get" id="gvQJ6sSR@hT+|D-]AH?W">
+                                <field name="VAR">time_s1</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="ADD5">
+                          <block type="text" id="q:ZM?h!ALN@*I9u,vXYK">
+                            <field name="TEXT"></field>
+                          </block>
+                        </value>
+                        <value name="ADD6">
+                          <block type="text" id="Lv=p+D[ja+~V.oO@i~{{">
+                            <field name="TEXT">步</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+                <next>
+                  <block type="controls_if" id="-T2s98i]=k@CmY,~XEbc">
+                    <value name="IF0">
+                      <block type="mpython_touchPad_value" id="=!wA[FRc/^bPP)NyF?)A">
+                        <field name="touchPad">Y</field>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="mpython_return_list" id="UEf-N..kEczwy8$bMQiN">
+                        <value name="list_name">
+                          <block type="variables_get" id=",ik5GTPZ;4lNn!b!=G25">
+                            <field name="VAR">Watch</field>
+                          </block>
+                        </value>
+                        <value name="list_items">
+                          <shadow type="text_list" id="+T}$_BPq$Qt)B9|Qz3px">
+                            <field name="TEXT">0, 0, 0</field>
+                          </shadow>
+                          <block type="lists_create_with" id="9;eS0W!4=11=T/_z.}kE">
+                            <mutation items="7"></mutation>
+                            <value name="ADD0">
+                              <block type="text" id="v%U5s02Aee14!1`eaz+P">
+                                <field name="TEXT">实时天气</field>
+                              </block>
+                            </value>
+                            <value name="ADD1">
+                              <block type="mpython_get_seniverse_weather_info" id="/na/Vxu4;tNaPD!8j)?v">
+                                <field name="var_name">w1</field>
+                                <field name="type">name</field>
+                              </block>
+                            </value>
+                            <value name="ADD2">
+                              <block type="mpython_get_seniverse_weather_info1" id="`s1fLgIDz%T%]`eYXL_6">
+                                <field name="var_name">w1</field>
+                                <field name="type">temperature</field>
+                              </block>
+                            </value>
+                            <value name="ADD3">
+                              <block type="mpython_get_seniverse_weather_info" id="W:ndkP{ZkrCL7Pc_%~4S">
+                                <field name="var_name">w1</field>
+                                <field name="type">last_update_date</field>
+                              </block>
+                            </value>
+                            <value name="ADD4">
+                              <block type="text_join" id="M,{WOy,M}(wPT:lW=5sA">
+                                <mutation items="4"></mutation>
+                                <value name="ADD0">
+                                  <block type="text" id="Ol41DR1{?sf:1wLM+)U1">
+                                    <field name="TEXT">最高</field>
+                                  </block>
+                                </value>
+                                <value name="ADD1">
+                                  <block type="mpython_get_seniverse_weather_info2" id="R*rdHbFB-Z8fkQx_Hf]@">
+                                    <field name="var_name">w2</field>
+                                    <field name="date">0</field>
+                                    <field name="type">high</field>
+                                  </block>
+                                </value>
+                                <value name="ADD2">
+                                  <block type="text" id="Rn8.{4X9}4BH1nAb)}u?">
+                                    <field name="TEXT"> 最低</field>
+                                  </block>
+                                </value>
+                                <value name="ADD3">
+                                  <block type="mpython_get_seniverse_weather_info2" id="-%NQjOz+Tbei!(rI7ttF">
+                                    <field name="var_name">w2</field>
+                                    <field name="date">0</field>
+                                    <field name="type">low</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="ADD5">
+                              <block type="text" id="v`r`S/%Ha3_pF*8$vF{.">
+                                <field name="TEXT"></field>
+                              </block>
+                            </value>
+                            <value name="ADD6">
+                              <block type="text" id="Emw3T4}Ax_!Cn=sl_Yh^">
+                                <field name="TEXT">摄氏度</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                      </block>
+                    </statement>
+                    <next>
+                      <block type="controls_if" id="/_3;q!%e@+v?CIZ^?SF-">
+                        <value name="IF0">
+                          <block type="mpython_touchPad_value" id="s0dM{9zIlk8[@:Hy0Soa">
+                            <field name="touchPad">T</field>
+                          </block>
+                        </value>
+                        <statement name="DO0">
+                          <block type="mpython_return_list" id="YTy-D!5yD@RKt99jz#u-">
+                            <value name="list_name">
+                              <block type="variables_get" id="Cq1@*H9tx:LnOUg|b)/Q">
+                                <field name="VAR">Watch</field>
+                              </block>
+                            </value>
+                            <value name="list_items">
+                              <shadow type="text_list" id="+T}$_BPq$Qt)B9|Qz3px">
+                                <field name="TEXT">0, 0, 0</field>
+                              </shadow>
+                              <block type="lists_create_with" id=":m~P9Ld:;vMl83]x[U|5">
+                                <mutation items="7"></mutation>
+                                <value name="ADD0">
+                                  <block type="text" id="_ipOJVJ1Bh{^Z%yK^0La">
+                                    <field name="TEXT">明日天气预报</field>
+                                  </block>
+                                </value>
+                                <value name="ADD1">
+                                  <block type="mpython_get_seniverse_weather_info" id="x2drZvUe$(l{XWw`kJ3,">
+                                    <field name="var_name">w1</field>
+                                    <field name="type">name</field>
+                                  </block>
+                                </value>
+                                <value name="ADD2">
+                                  <block type="text_join" id="BZD#{uOK@*OQ];c%#Tj$">
+                                    <mutation items="4"></mutation>
+                                    <value name="ADD0">
+                                      <block type="text" id="ZCGt5=NydS@%azi?2`L[">
+                                        <field name="TEXT">H</field>
+                                      </block>
+                                    </value>
+                                    <value name="ADD1">
+                                      <block type="mpython_get_seniverse_weather_info2" id="OGVSKLTG@D=DvTx8qG@j">
+                                        <field name="var_name">w2</field>
+                                        <field name="date">1</field>
+                                        <field name="type">high</field>
+                                      </block>
+                                    </value>
+                                    <value name="ADD2">
+                                      <block type="text" id="1C+Ge*._3Q}iXHJ;Bc%}">
+                                        <field name="TEXT"> L</field>
+                                      </block>
+                                    </value>
+                                    <value name="ADD3">
+                                      <block type="mpython_get_seniverse_weather_info2" id="0XYWa?[0u+`c`A)[eq.(">
+                                        <field name="var_name">w2</field>
+                                        <field name="date">1</field>
+                                        <field name="type">low</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <value name="ADD3">
+                                  <block type="text" id="yRb6$.nP:gD6XonCkCd/">
+                                    <field name="TEXT"></field>
+                                  </block>
+                                </value>
+                                <value name="ADD4">
+                                  <block type="mpython_get_seniverse_weather_info2" id="o;;QfFU99!ZG{Pws-.?$">
+                                    <field name="var_name">w2</field>
+                                    <field name="date">1</field>
+                                    <field name="type">text_day</field>
+                                  </block>
+                                </value>
+                                <value name="ADD5">
+                                  <block type="text" id="C%=.,w++eYaz:J%-xFKq">
+                                    <field name="TEXT"></field>
+                                  </block>
+                                </value>
+                                <value name="ADD6">
+                                  <block type="text" id="$+qM4*M25]Fr{{S6Y/M[">
+                                    <field name="TEXT"></field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                          </block>
+                        </statement>
+                        <next>
+                          <block type="controls_if" id="j)f%Z:QfVh)]Ip[SgJzA">
+                            <value name="IF0">
+                              <block type="mpython_touchPad_value" id="ra9Z1qoL~=X4y8yfhhC4">
+                                <field name="touchPad">O</field>
+                              </block>
+                            </value>
+                            <statement name="DO0">
+                              <block type="mpython_return_list" id="kes}kbfb=,.}!sv+LF9b">
+                                <value name="list_name">
+                                  <block type="variables_get" id="CMFn4UOU.~it4:9[VqYh">
+                                    <field name="VAR">Watch</field>
+                                  </block>
+                                </value>
+                                <value name="list_items">
+                                  <shadow type="text_list" id="+T}$_BPq$Qt)B9|Qz3px">
+                                    <field name="TEXT">0, 0, 0</field>
+                                  </shadow>
+                                  <block type="lists_create_with" id="-:tkNw$d%mG2Jr;8|e~N">
+                                    <mutation items="7"></mutation>
+                                    <value name="ADD0">
+                                      <block type="text" id="Pnj6ghEA3:$qjdUxUBt$">
+                                        <field name="TEXT">二维码</field>
+                                      </block>
+                                    </value>
+                                    <value name="ADD1">
+                                      <block type="text" id="9ceyp^n}ir]t-5bov40a">
+                                        <field name="TEXT"> </field>
+                                      </block>
+                                    </value>
+                                    <value name="ADD2">
+                                      <block type="text" id="NHg39vptRGeUx**,sT$I">
+                                        <field name="TEXT"> </field>
+                                      </block>
+                                    </value>
+                                    <value name="ADD3">
+                                      <block type="text" id="w9:6jo`o=?+Zl)A~@Cin">
+                                        <field name="TEXT"></field>
+                                      </block>
+                                    </value>
+                                    <value name="ADD4">
+                                      <block type="text" id="@0+~NTM^~c4Z?]jHeu0r">
+                                        <field name="TEXT"></field>
+                                      </block>
+                                    </value>
+                                    <value name="ADD5">
+                                      <block type="text" id="!~TZ`PXcSPMk+w0[lvZ}">
+                                        <field name="TEXT"></field>
+                                      </block>
+                                    </value>
+                                    <value name="ADD6">
+                                      <block type="text" id=",UNJpsH)m6c=zmU%A)a2">
+                                        <field name="TEXT"></field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="mpython_qr_code" id="S|0Uoo~:dLyvO3ywe7Vj">
+                                    <field name="scale">1</field>
+                                    <value name="x">
+                                      <shadow type="math_number" id="Q`wQN,$~5.r=EDY|4_4q">
+                                        <field name="NUM">55</field>
+                                      </shadow>
+                                    </value>
+                                    <value name="y">
+                                      <shadow type="math_number" id="_s_b(bJMFG#7]PcnVV]b">
+                                        <field name="NUM">0</field>
+                                      </shadow>
+                                    </value>
+                                    <value name="str">
+                                      <shadow type="text" id="@y17tM5b#[9Y;NPq8u@}">
+                                        <field name="TEXT">输入你要显示的文本</field>
+                                      </shadow>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                            <next>
+                              <block type="controls_if" id="s3@Ms:B8N~:jFu}PwIeO">
+                                <value name="IF0">
+                                  <block type="mpython_touchPad_value" id="ptj/w|W)uJOtm+WTyF./">
+                                    <field name="touchPad">N</field>
+                                  </block>
+                                </value>
+                                <statement name="DO0">
+                                  <block type="mpython_return_list" id="u?PZ@AW]hIrq8Ndow/t4">
+                                    <value name="list_name">
+                                      <block type="variables_get" id="7:`W7YzU[2HAFiH?W#)b">
+                                        <field name="VAR">Watch</field>
+                                      </block>
+                                    </value>
+                                    <value name="list_items">
+                                      <shadow type="text_list" id="+T}$_BPq$Qt)B9|Qz3px">
+                                        <field name="TEXT">0, 0, 0</field>
+                                      </shadow>
+                                      <block type="lists_create_with" id="O55mRY!~0gC{gmU$Gjx2">
+                                        <mutation items="7"></mutation>
+                                        <value name="ADD0">
+                                          <block type="text" id="/6#EeMcfSgK7pOw{IXW_">
+                                            <field name="TEXT">系统版本</field>
+                                          </block>
+                                        </value>
+                                        <value name="ADD1">
+                                          <block type="text" id="4rnOY(=e{PJC:%$k`8]:">
+                                            <field name="TEXT"></field>
+                                          </block>
+                                        </value>
+                                        <value name="ADD2">
+                                          <block type="text_join" id="!tJmpe=,C{,;9RG/PD;u">
+                                            <mutation items="1"></mutation>
+                                            <value name="ADD0">
+                                              <block type="text" id="gF;8#IF^c8Jb[4=urJb~">
+                                                <field name="TEXT">v1.0.1</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <value name="ADD3">
+                                          <block type="text" id="xWz4jY*BxD$!wrGV:fsK">
+                                            <field name="TEXT">Geek Watch OS</field>
+                                          </block>
+                                        </value>
+                                        <value name="ADD4">
+                                          <block type="text_join" id="LlH$P0:{Uuj0$Z-.[V]h">
+                                            <mutation items="2"></mutation>
+                                            <value name="ADD0">
+                                              <block type="text" id="jX5jPiyLl@HHKcFdiI5U">
+                                                <field name="TEXT"> 开发 </field>
+                                              </block>
+                                            </value>
+                                            <value name="ADD1">
+                                              <block type="text" id="/faYsudBQZ}r_IgHX$}A">
+                                                <field name="TEXT">Dennis Huang</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <value name="ADD5">
+                                          <block type="text" id="^Po=zUHk0F8jiA)uwc$f">
+                                            <field name="TEXT"></field>
+                                          </block>
+                                        </value>
+                                        <value name="ADD6">
+                                          <block type="text" id="F-^j8C.G_ulu)Z,ms]4r">
+                                            <field name="TEXT"></field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </statement>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="mpython_init_wifi" id="[IjHt7pFHyl@H*~z4?l9" x="-143" y="1794">
+    <value name="ssid">
+      <shadow type="text" id="m=J@x-9S%u^V*sa]n?(V">
+        <field name="TEXT">在这里输入您的WiFi名称</field>
+      </shadow>
+    </value>
+    <value name="password">
+      <shadow type="text" id="A^LxY8F?K[=M{Xlc}ki:">
+        <field name="TEXT">在这里输入您的WiFi密码</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="mpython_ntptime_settime" id="k8l.:uiiL+_2v381%p$n">
+        <field name="timezone">8</field>
+        <field name="server">ntp.ntsc.ac.cn</field>
+        <next>
+          <block type="mpython_display_fill" id="OC:9o^R)l}yCbAl_V9ei">
+            <field name="display_fill">fill(0)</field>
+            <next>
+              <block type="variables_set" id="kr:^_:}P5kfQ0,a%!O..">
+                <field name="VAR">walk</field>
+                <value name="VALUE">
+                  <shadow type="math_number" id="}Vz2bjWx4k6vL~AxRPdE">
+                    <field name="NUM">0</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="variables_set" id="Sg5Nd?%hdmm28+#dt5Wc">
+                    <field name="VAR">kcal</field>
+                    <value name="VALUE">
+                      <shadow type="math_number" id="8dg[Ja~nd@pT]a+RB0!U">
+                        <field name="NUM">0</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="mpython_define_seniverse_weather" id=".cTsIHumMyw`}[KdP6+e">
+                        <field name="var_name">w1</field>
+                        <value name="info">
+                          <block type="mpython_seniverse_city_weather" id="7v4|.ge]Hhw1B;,QzxjS">
+                            <field name="api">api_1</field>
+                            <field name="key">SvW_zfVWUgR0dbqBp</field>
+                            <field name="language">zh-Hans</field>
+                            <field name="unit">c</field>
+                            <value name="location">
+                              <block type="china_city" id="X=*pa?#EOWZi=P9G]`=%">
+                                <field name="province">本地</field>
+                                <field name="city">-</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="mpython_define_seniverse_weather" id="_Lie-5[v]e_+EYQK!p}4">
+                            <field name="var_name">w2</field>
+                            <value name="info">
+                              <block type="mpython_seniverse_city_weather" id=",{~k78zd{~~3(obRE1ze">
+                                <field name="api">api_2</field>
+                                <field name="key">SvW_zfVWUgR0dbqBp</field>
+                                <field name="language">zh-Hans</field>
+                                <field name="unit">c</field>
+                                <value name="location">
+                                  <block type="china_city" id="E|l+djeFYrrg#6##|)o_">
+                                    <field name="province">本地</field>
+                                    <field name="city">-</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="controls_repeat_forever" id="?g%Tc9Z3:RGEY]%2-]_|">
+                                <statement name="DO">
+                                  <block type="mpython_display_fill" id="ELo?CuIF;z2#|2S9tHcF">
+                                    <field name="display_fill">fill(0)</field>
+                                    <next>
+                                      <block type="procedures_callnoreturn" id="0tFGJ]K}UaHM{=%ZVET;">
+                                        <mutation name="Sport"></mutation>
+                                        <field name="NAME">Sport</field>
+                                        <next>
+                                          <block type="procedures_callnoreturn" id="cnyOED_D}#-C29z-9X==">
+                                            <mutation name="Time"></mutation>
+                                            <field name="NAME">Time</field>
+                                            <next>
+                                              <block type="procedures_callnoreturn" id=":,#`Q!5`w=Sna^P!{v_m">
+                                                <mutation name="Watch_Logic"></mutation>
+                                                <field name="NAME">Watch_Logic</field>
+                                                <next>
+                                                  <block type="mpython_display_DispChar" id="Zd$|ib5t;}V-8Xshj,bg">
+                                                    <field name="TEXTMODE">1</field>
+                                                    <value name="x">
+                                                      <shadow type="math_number" id="Byb9mg1ib^ht7g2G~.JW">
+                                                        <field name="NUM">0</field>
+                                                      </shadow>
+                                                    </value>
+                                                    <value name="y">
+                                                      <shadow type="math_number" id="]0!z]r!?gRN2F)e3y$89">
+                                                        <field name="NUM">0</field>
+                                                      </shadow>
+                                                    </value>
+                                                    <value name="message">
+                                                      <shadow type="text" id="ZT|IJb#Y[[q3K9#-^MK5">
+                                                        <field name="TEXT">Hello, world!</field>
+                                                      </shadow>
+                                                      <block type="text_join" id="K8^`yBw/pr8;nu`hO^on">
+                                                        <mutation items="1"></mutation>
+                                                        <value name="ADD0">
+                                                          <block type="list_order_item" id="12V2=]rH[qcPKMDz%e9,">
+                                                            <field name="list_order">[</field>
+                                                            <value name="list_name">
+                                                              <shadow type="text_list" id="9mTqO;+,nQe#8D05K/LY">
+                                                                <field name="TEXT"></field>
+                                                              </shadow>
+                                                              <block type="variables_get" id=":DhI];|1?Pz8@@wCsCpt">
+                                                                <field name="VAR">Watch</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="list_order_item">
+                                                              <shadow type="math_number" id="9~+)0eB!?uuHDXP+a9Yc">
+                                                                <field name="NUM">0</field>
+                                                              </shadow>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="mpython_display_DispChar" id="_dpT#v3ata)ZneAmjNgc">
+                                                        <field name="TEXTMODE">1</field>
+                                                        <value name="x">
+                                                          <shadow type="math_number" id="GOVB_S505WKe%2a1YO@J">
+                                                            <field name="NUM">102</field>
+                                                          </shadow>
+                                                        </value>
+                                                        <value name="y">
+                                                          <shadow type="math_number" id="qNj]EK8sgZG`UJ`/g}(k">
+                                                            <field name="NUM">0</field>
+                                                          </shadow>
+                                                        </value>
+                                                        <value name="message">
+                                                          <shadow type="text" id="ZT|IJb#Y[[q3K9#-^MK5">
+                                                            <field name="TEXT">Hello, world!</field>
+                                                          </shadow>
+                                                          <block type="text_join" id="w2*Ic2SbT]R5:BxKLlXo">
+                                                            <mutation items="1"></mutation>
+                                                            <value name="ADD0">
+                                                              <block type="list_order_item" id="Ytft1L@RpyK%l$XDMZY7">
+                                                                <field name="list_order">[</field>
+                                                                <value name="list_name">
+                                                                  <shadow type="text_list" id="9mTqO;+,nQe#8D05K/LY">
+                                                                    <field name="TEXT"></field>
+                                                                  </shadow>
+                                                                  <block type="variables_get" id="+FDPH6B(_)-CNb]U5z?H">
+                                                                    <field name="VAR">Watch</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="list_order_item">
+                                                                  <shadow type="math_number" id="_%Hwm13^`;aM.0$?r6.k">
+                                                                    <field name="NUM">1</field>
+                                                                  </shadow>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="mpython_display_font" id="atc/q/:pZ.4#}.eo5TVj">
+                                                            <field name="font">font.digiface_21</field>
+                                                            <field name="wrap">False</field>
+                                                            <value name="x">
+                                                              <shadow type="math_number" id="Q-sDj`wXsUZAH0uO0sQ^">
+                                                                <field name="NUM">35</field>
+                                                              </shadow>
+                                                            </value>
+                                                            <value name="y">
+                                                              <shadow type="math_number" id="CPKUd1AVZQgeUh51Y+$7">
+                                                                <field name="NUM">15</field>
+                                                              </shadow>
+                                                            </value>
+                                                            <value name="message">
+                                                              <shadow type="text" id="^fJ~X|5rhw!/^!n:qR[?">
+                                                                <field name="TEXT">12:34</field>
+                                                              </shadow>
+                                                              <block type="list_order_item" id="LBC1t_Z,e=v!Etk=SsXi">
+                                                                <field name="list_order">[</field>
+                                                                <value name="list_name">
+                                                                  <shadow type="text_list" id="5;Yg65G~3M__6B+y5qjh">
+                                                                    <field name="TEXT"></field>
+                                                                  </shadow>
+                                                                  <block type="variables_get" id="S~kwe_e}P6/UI_#|#u,J">
+                                                                    <field name="VAR">Watch</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="list_order_item">
+                                                                  <shadow type="math_number" id="Pbqq.5!HqVwRo//CP1{|">
+                                                                    <field name="NUM">2</field>
+                                                                  </shadow>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="mpython_display_DispChar" id="(3`9@g;ok[wq|%s;;i;;">
+                                                                <field name="TEXTMODE">1</field>
+                                                                <value name="x">
+                                                                  <shadow type="math_number" id="u-PtwePktU;/6P:,D_U[">
+                                                                    <field name="NUM">0</field>
+                                                                  </shadow>
+                                                                </value>
+                                                                <value name="y">
+                                                                  <shadow type="math_number" id="MLo;CY%IFW6]$6,4rFl*">
+                                                                    <field name="NUM">35</field>
+                                                                  </shadow>
+                                                                </value>
+                                                                <value name="message">
+                                                                  <shadow type="text" id="ZT|IJb#Y[[q3K9#-^MK5">
+                                                                    <field name="TEXT">Hello, world!</field>
+                                                                  </shadow>
+                                                                  <block type="text_join" id="6JX?7_@edECs#eTo@7_y">
+                                                                    <mutation items="1"></mutation>
+                                                                    <value name="ADD0">
+                                                                      <block type="list_order_item" id="|-7WG_p+9O0b.fnR@n,$">
+                                                                        <field name="list_order">[</field>
+                                                                        <value name="list_name">
+                                                                          <shadow type="text_list" id="5;Yg65G~3M__6B+y5qjh">
+                                                                            <field name="TEXT"></field>
+                                                                          </shadow>
+                                                                          <block type="variables_get" id="Jw}g{$^~%Neq?O6of2~x">
+                                                                            <field name="VAR">Watch</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="list_order_item">
+                                                                          <shadow type="math_number" id="oaif~?*`bnk?zM=/?-lH">
+                                                                            <field name="NUM">3</field>
+                                                                          </shadow>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="mpython_display_DispChar" id="U.Cjmi~?hoDjC4r[;.k)">
+                                                                    <field name="TEXTMODE">1</field>
+                                                                    <value name="x">
+                                                                      <shadow type="math_number" id=":rH{unFT0^KMPHwmWq7?">
+                                                                        <field name="NUM">0</field>
+                                                                      </shadow>
+                                                                    </value>
+                                                                    <value name="y">
+                                                                      <shadow type="math_number" id="Zy,lQAMd`f#4Bm2CAcJ9">
+                                                                        <field name="NUM">49</field>
+                                                                      </shadow>
+                                                                    </value>
+                                                                    <value name="message">
+                                                                      <shadow type="text" id="ZT|IJb#Y[[q3K9#-^MK5">
+                                                                        <field name="TEXT">Hello, world!</field>
+                                                                      </shadow>
+                                                                      <block type="text_join" id="aG^nuROX4k8RR]h=,|eT">
+                                                                        <mutation items="1"></mutation>
+                                                                        <value name="ADD0">
+                                                                          <block type="list_order_item" id="FM6vMa[J(oz!wM$RlVJC">
+                                                                            <field name="list_order">[</field>
+                                                                            <value name="list_name">
+                                                                              <shadow type="text_list" id="5;Yg65G~3M__6B+y5qjh">
+                                                                                <field name="TEXT"></field>
+                                                                              </shadow>
+                                                                              <block type="variables_get" id="_aSX:?ELX4U(.#7d1rQ$">
+                                                                                <field name="VAR">Watch</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="list_order_item">
+                                                                              <shadow type="math_number" id="O)O!3J@:xp),{WP^Dk5.">
+                                                                                <field name="NUM">4</field>
+                                                                              </shadow>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="mpython_display_DispChar" id="x1Z`0R7zW7xeJ,e//6wh">
+                                                                        <field name="TEXTMODE">1</field>
+                                                                        <value name="x">
+                                                                          <shadow type="math_number" id="I$s/ol;/ns^etyiPyBG!">
+                                                                            <field name="NUM">100</field>
+                                                                          </shadow>
+                                                                        </value>
+                                                                        <value name="y">
+                                                                          <shadow type="math_number" id="%?JY@p,$),|Be^-g2FlX">
+                                                                            <field name="NUM">49</field>
+                                                                          </shadow>
+                                                                        </value>
+                                                                        <value name="message">
+                                                                          <shadow type="text" id="ZT|IJb#Y[[q3K9#-^MK5">
+                                                                            <field name="TEXT">Hello, world!</field>
+                                                                          </shadow>
+                                                                          <block type="text_join" id=";aU%;_=#wuoG?IdbILBQ">
+                                                                            <mutation items="1"></mutation>
+                                                                            <value name="ADD0">
+                                                                              <block type="list_order_item" id="VA[Ct;`x?$XRK3I%@{s(">
+                                                                                <field name="list_order">[</field>
+                                                                                <value name="list_name">
+                                                                                  <shadow type="text_list" id="5;Yg65G~3M__6B+y5qjh">
+                                                                                    <field name="TEXT"></field>
+                                                                                  </shadow>
+                                                                                  <block type="variables_get" id="Cr9#W1}e[R,q?5[${ZWV">
+                                                                                    <field name="VAR">Watch</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="list_order_item">
+                                                                                  <shadow type="math_number" id="e;|rF`(R*XqL(_VSq9Fl">
+                                                                                    <field name="NUM">5</field>
+                                                                                  </shadow>
+                                                                                </value>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="mpython_display_DispChar" id="=K=T).)lr`nYbkJH13(i">
+                                                                            <field name="TEXTMODE">1</field>
+                                                                            <value name="x">
+                                                                              <shadow type="math_number" id="uaMikqITQ6;LITS$YbbM">
+                                                                                <field name="NUM">65</field>
+                                                                              </shadow>
+                                                                            </value>
+                                                                            <value name="y">
+                                                                              <shadow type="math_number" id="j)94@8?28hH:/{9|6.K$">
+                                                                                <field name="NUM">20</field>
+                                                                              </shadow>
+                                                                            </value>
+                                                                            <value name="message">
+                                                                              <shadow type="text" id="ZT|IJb#Y[[q3K9#-^MK5">
+                                                                                <field name="TEXT">Hello, world!</field>
+                                                                              </shadow>
+                                                                              <block type="text_join" id="=hcoQj~`|Z}3Y6;OR7`A">
+                                                                                <mutation items="1"></mutation>
+                                                                                <value name="ADD0">
+                                                                                  <block type="list_order_item" id="FQsnv4uPSfgBI~2wsnnr">
+                                                                                    <field name="list_order">[</field>
+                                                                                    <value name="list_name">
+                                                                                      <shadow type="text_list" id="5;Yg65G~3M__6B+y5qjh">
+                                                                                        <field name="TEXT"></field>
+                                                                                      </shadow>
+                                                                                      <block type="variables_get" id="B.G+QL06-|{Z5PK*:93v">
+                                                                                        <field name="VAR">Watch</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="list_order_item">
+                                                                                      <shadow type="math_number" id="]AG@B3e}7Gq6Zo8wlcKo">
+                                                                                        <field name="NUM">6</field>
+                                                                                      </shadow>
+                                                                                    </value>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </value>
+                                                                            <next>
+                                                                              <block type="mpython_display_Show" id="9,~,8C7)NZ7mJF!ERKPr"></block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
